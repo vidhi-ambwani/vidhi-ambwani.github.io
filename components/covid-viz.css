@@ -1,0 +1,57 @@
+.covid-viz-covid-viz {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 300px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.covid-viz-container {
+  width: 100%;
+  height: 219px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/rectangle%2099-1500w.png");
+  background-position: center;
+}
+.covid-viz-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.covid-viz-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.covid-viz-button {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.covid-viz-link {
+  text-decoration: underline;
+}
+@media(max-width: 991px) {
+  .covid-viz-covid-viz {
+    max-width: 550px;
+  }
+}
+@media(max-width: 767px) {
+  .covid-viz-covid-viz {
+    max-width: 450px;
+  }
+}
+@media(max-width: 479px) {
+  .covid-viz-covid-viz {
+    max-width: 350px;
+  }
+}

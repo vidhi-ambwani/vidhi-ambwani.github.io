@@ -1,0 +1,107 @@
+.mint-classics1-mint-classics {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 4px 4px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mint-classics1-mint-classics:hover {
+  transform: scale(1.02);
+}
+.mint-classics1-image {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 0px;
+}
+.mint-classics1-container {
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.mint-classics1-container1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mint-classics1-text {
+  color: #595959;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.mint-classics1-text1 {
+  color: #595959;
+  font-weight: 300;
+}
+.mint-classics1-text2 {
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.mint-classics1-text3 {
+  color: #595959;
+  font-size: 1.25rem;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.mint-classics1-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mint-classics1-profile {
+  display: flex;
+  align-items: center;
+}
+.mint-classics1-image1 {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.mint-classics1-text4 {
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.mint-classics1-link {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .mint-classics1-mint-classics {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media(max-width: 767px) {
+  .mint-classics1-mint-classics {
+    flex-direction: column;
+  }
+  .mint-classics1-image {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .mint-classics1-container2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .mint-classics1-link {
+    width: auto;
+  }
+}

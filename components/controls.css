@@ -1,0 +1,14 @@
+.controls-controls {
+  display: grid;
+  grid-gap: 12px;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+}
+.controls-icon {
+  width: 16px;
+  height: 16px;
+}
+.controls-icon2 {
+  width: 16px;
+  height: 16px;
+}

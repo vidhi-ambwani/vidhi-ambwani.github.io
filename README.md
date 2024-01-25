@@ -1,2 +1,2 @@
-# vidhi-ambwani-github.io
+# vidhi-ambwani.github.io
 Data Analytics Website
